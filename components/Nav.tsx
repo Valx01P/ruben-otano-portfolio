@@ -36,7 +36,7 @@ export default function Nav() {
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           className="group flex items-center gap-2"
         >
-          <Logo size={34} className="transition group-hover:scale-105" />
+          <Logo size={34} badge={false} className="transition group-hover:scale-105" />
           <span className="hidden text-sm font-medium tracking-tight text-[#cdd8c5] sm:block">
             Ruben&nbsp;Otano
           </span>
