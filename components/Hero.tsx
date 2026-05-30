@@ -101,7 +101,7 @@ export default function Hero() {
                 /* eslint-disable-next-line @next/next/no-img-element */
                 <img
                   src="/hero.webp"
-                  alt="Ruben Otano — AI/ML Engineer"
+                  alt="Ruben Otano | AI/ML Engineer"
                   width={400}
                   height={400}
                   fetchPriority="high"

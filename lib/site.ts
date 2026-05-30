@@ -5,7 +5,7 @@
 export const site = {
   name: 'Ruben Otano',
   jobTitle: 'AI/ML Engineer',
-  title: 'Ruben Otano — AI/ML Engineer',
+  title: 'Ruben Otano | AI/ML Engineer',
   description:
     'Ruben Otano is an AI/ML engineer building machine-learning systems for medicine — medical imaging, clinical NLP, drug discovery, and real-time critical-care models. Computer Science student, MLT Career Prep fellow, and CodePath E3 Scholar.',
   shortDescription:
