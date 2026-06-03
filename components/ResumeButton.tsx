@@ -14,7 +14,7 @@ interface Props {
 
 export default function ResumeButton({
   className = '',
-  label = 'Résumé',
+  label = 'Resume',
   variant = 'outline',
 }: Props) {
   const [open, setOpen] = useState(false);
@@ -54,7 +54,7 @@ export default function ResumeButton({
             className="fixed inset-0 z-[120] flex items-center justify-center p-3 sm:p-6"
             role="dialog"
             aria-modal="true"
-            aria-label="Résumé preview"
+            aria-label="Resume preview"
           >
           <div
             className="absolute inset-0 bg-black/80 backdrop-blur-sm animate-[fade-in-up_0.2s_ease]"
@@ -70,7 +70,7 @@ export default function ResumeButton({
                 <FileText size={18} className="shrink-0 text-brand" />
                 <div className="min-w-0">
                   <h3 className="truncate text-sm font-bold text-[#e6f0e0]">
-                    Ruben Otano — Résumé
+                    Ruben Otano — Resume
                   </h3>
                   <p className="truncate text-xs text-[#7c8a76]">AI/ML Engineer</p>
                 </div>
@@ -111,7 +111,7 @@ export default function ResumeButton({
               <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center gap-2 px-6 text-center">
                 <FileText size={32} className="text-[#3a4033]" />
                 <p className="text-sm text-[#7c8a76]">
-                  If the preview is blank, the résumé PDF is still being added.
+                  If the preview is blank, the resume PDF is still being added.
                 </p>
                 <a
                   href={RESUME_PATH}
@@ -123,7 +123,7 @@ export default function ResumeButton({
               </div>
               <iframe
                 src={`${RESUME_PATH}#view=FitH&toolbar=1&navpanes=0`}
-                title="Ruben Otano résumé"
+                title="Ruben Otano resume"
                 className="relative h-full w-full"
               />
             </div>
